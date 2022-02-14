@@ -1,5 +1,5 @@
-import ListItems from './components/ItemList/ListItems'
-import NavBar from './components/NavBar/Navbar';
+import ListItems from './components/ListItems'
+import NavBar from './components/Navbar';
 import GlobalStyle from './styles/createGlobalStyle'
 
 function App() {

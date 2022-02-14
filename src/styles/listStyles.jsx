@@ -10,7 +10,7 @@ export const Title = styled.h1`
 font-size: 50px;
 color: #f1eceb;
 text-align: center;
-height: 50px;
+height: 60px;
 `
 
 export const Table = styled.table`
@@ -22,13 +22,13 @@ width: 100%;
   }
 
   th{
-    border: 1px solid #c43b05;
+    border: 1px solid var(--orange-400);
     border-spacing: 0.5rem;
     text-align: left;
  }
 
 `
 export const ContainerWrapper = styled.div`
-  margin-top: 100px;
+  margin-top: 80px;
 `
 

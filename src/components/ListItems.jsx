@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { ContainerWrapper, Table, Title, Wrapper } from '../../styles/listStyles'
-import api from '../../services/api'
+import { ContainerWrapper, Table, Title, Wrapper } from '../styles/listStyles'
+import api from '../services/api'
 
 export default function ListItems(){
     const [ items, setItems ] = useState([])
